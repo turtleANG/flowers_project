@@ -235,7 +235,7 @@ a {
 }
 
 .jumbotron {
-  background-image: url(/img/jumbotron_back.jpg);
+  background-image: url(../../img/jumbotron_back.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -244,12 +244,12 @@ a {
 }
 @media (max-width: 768px) {
   .jumbotron {
-    background-image: url(/img/jumbotron_back-medium.jpg);
+    background-image: url(../../img/jumbotron_back-medium.jpg);
   }
 }
 @media (max-width: 500px) {
   .jumbotron {
-    background-image: url(/img/jumbotron_back-small.jpg);
+    background-image: url(../../img/jumbotron_back-small.jpg);
     margin-top: -58px;
   }
 }
@@ -319,7 +319,7 @@ a {
 }
 
 .feedback-block {
-  background-image: url(/img/form-block_back.png);
+  background-image: url(../../img/form-block_back.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -338,7 +338,7 @@ a {
 .feedback-block .feedback-container {
   max-width: 1140px;
   margin: 0 auto;
-  background-image: url(/img/feedback_back.png);
+  background-image: url(../../img/feedback_back.png);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-color: #fffbed;
@@ -581,7 +581,7 @@ a {
 }
 .form .fake-checkbox::before {
   content: "";
-  background-image: url(/img/check_icon.png);
+  background-image: url(../../img/check_icon.png);
   background-position: center center;
   background-repeat: no-repeat;
   width: 18px;

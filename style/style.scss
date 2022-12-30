@@ -251,18 +251,18 @@ a {
 
 .jumbotron {
   background: {
-    image: url(/img/jumbotron_back.jpg);
+    image: url(../../img/jumbotron_back.jpg);
     position: top center;
     repeat: no-repeat;
     size: cover;
   }
   @media (max-width: 768px) {
-    background-image: url(/img/jumbotron_back-medium.jpg);
+    background-image: url(../../img/jumbotron_back-medium.jpg);
   }
   text-align: center;
   margin-top: -126px;
   @media (max-width: 500px) {
-    background-image: url(/img/jumbotron_back-small.jpg);
+    background-image: url(../../img/jumbotron_back-small.jpg);
     margin-top: -58px;
   }
 
@@ -334,7 +334,7 @@ a {
 
 .feedback-block {
   background: {
-    image: url(/img/form-block_back.png);
+    image: url(../../img/form-block_back.png);
     position: top center;
     repeat: no-repeat;
     size: cover;
@@ -351,7 +351,7 @@ a {
     max-width: 1140px;
     margin: 0 auto;
     background: {
-      image: url(/img/feedback_back.png);
+      image: url(../../img/feedback_back.png);
       position: bottom center;
       repeat: no-repeat;
     }
@@ -571,7 +571,7 @@ a {
     &::before {
       content: "";
       background: {
-        image: url(/img/check_icon.png);
+        image: url(../../img/check_icon.png);
         position: center center;
         repeat: no-repeat;
       }

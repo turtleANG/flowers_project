@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/css/style.css">
+  <title>MODESTO FLOWERS</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo">
+        <img src="/img/logo.png" alt="logo">
+      </div>
+      <div class="header__nav nav">
+        <div class="nav__icon">
+          <img src="/img/menu.png" alt="menu icon">
+        </div>
+        <nav class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#">Магазины</a></li>
+            <li class="nav__item"><a href="#">Контакты</a></li>
+            <li class="nav__item"><a href="#">О нас</a></li>
+            <li class="nav__item hidden-medium hidden-large"><a href="#">Войти</a></li>
+            <li class="nav__item hidden-large"><a href="#">Создать аккаунт</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__contacts">
+        <div class="header__phone">+3 67 8754 7894</div>
+        <div class="header__lang hidden-large">
+          <ul class="lang__list">
+            <li class="lang__item lang__item-active">Ru</li>
+            <li class="lang__item">Eng</li>
+          </ul>
+        </div>
+        <div class="contacts__login hidden-small"><a href="#">Войти</a></div>
+        <div class="contacts__create hidden-small hidden-medium"><a href="#">Создать аккаунт</a></div>
+      </div>
+    </div>
+  </header>
+  <section class="jumbotron">
+    <div class="jumbotron__container">
+      <h2 class="jumbotron__title">Мы будем рады сотрудничать с вами на платформе 'Международной цветочной
+        онлайн-площадки'!</h2>
+      <p class="jumbotron__text">Присоединяйтесь к нам и начните получать доход с бизнеса в первый месяц регистрации!
+      </p>
+      <div class="jumbotron__buttons">
+        <button class="jumbotron__btn">Начать покупать</button>
+        <button class="jumbotron__btn-sub">Начать продавать</button>
+      </div>
+    </div>
+  </section>
+  <section class="feedback-block">
+    <div class="feedback-container">
+      <div class="feedback__description">
+        <h2 class="description__title">Заполните форму и начните развивать свой бизнес прямо сейчас!</h2>
+        <p class="description__text">Регистрация на нашем сайте занимает несколько минут, просим ответить на все вопросы
+          полностью и корректно! После подтверждения регистрации вы попадёте в систему, где большинство процессов
+          автоматизированы, что сэкономит ваше время и деньги!</p>
+      </div>
+      <div class="feedback__form">
+        <form action="" class="form">
+          <div class="form__block form__block-active">
+            <div class="form__part">
+              <label for="form__user-name">Ваше имя</label>
+              <input id="form__user-name" class="form__input" type="text" placeholder="Фролова Александра Васильевна">
+              <label for="form__company-name">Название Компании</label>
+              <input id="form__company-name" class="form__input" type="text" placeholder="ООО Атлантика">
+              <label for="form__email">E-mail</label>
+              <input id="form__email" class="form__input" type="text" placeholder="flolovaalexa@com.rur">
+            </div>
+            <div class="form__part">
+              <label for="form__phone">Номер телефона</label>
+              <input id="form__phone" class="form__input" type="text" placeholder="+7 (XXX) - XXX XX XX">
+              <label for="form__promocode">Промокод</label>
+              <input id="form__promocode" class="form__input" type="text" placeholder="HGF864">
+              <button type="button" class="form__btn form__btn-next">Далее</button>
+            </div>
+          </div>
+          <div class="form__block js__form-block">
+            <div class="form__part">
+              <label for="form__user-name">Пароль</label>
+              <input id="form__user-name" class="form__input" type="text" placeholder="Создайте пароль">
+              <label for="form__company-name">Подтвердите пароль</label>
+              <input id="form__company-name" class="form__input" type="text" placeholder="Повторите пароль">
+              <div class="form__capcha hidden-medium">F4UK6</div>
+              <label for="form__email">Введите символы из картинки</label>
+              <input id="form__email" class="form__input" type="text" placeholder="Код из картинки">
+            </div>
+            <div class="form__part">
+              <div class="form__capcha hidden-small hidden-large">F4UK6</div>
+              <div class="form__buttons">
+                <button type="button" class="form__btn-sub form__btn-back">Назад</button>
+                <button type="submit" class="form__btn">Подтвердить</button>
+              </div>
+              <label class="checkbox-group">
+                <input type="checkbox" class="form__checkbox">
+                <span class="fake-checkbox"></span>
+                Я даю согласие на обработку моих персональных данных и правовых документов
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="wrap-block">
+        <div class="footer__offices">
+          <h2 class="footer__title">Наши офисы</h2>
+          <div class="offices">
+            <div class="offices__adress">
+              Московский офис<br>
+              +7 455 267-89-07<br>
+              Берсеневский пер., д. 56, стр. 4,<br>
+              6-й эт., Москва, 567754
+            </div>
+            <div class="offices__adress">
+              Ростовский офис<br>
+              +7 878 888-01-67<br>
+              Буденовский пр-т, д. 84, 6-й эт.,<br>
+              Ростов-на-Дону, 679965
+            </div>
+          </div>
+        </div>
+        <div class="footer__social">
+          <h2 class="footer__title">Мы в соц сетях</h2>
+          <p><a href="#" class="social__item" target="_blank">Instagram</a></p>
+          <p><a href="#" class="social__item" target="_blank">Facebook</a></p>
+        </div>
+      </div>
+      <div class="footer__contacts">
+        <h2 class="footer__title">Свяжитесь с нами</h2>
+        <p class="contacts__phone">+3 67 8754 7894</p>
+        <p><a href="mailto:mflowers@flo.com" class="contacts__mail">mflowers@flo.com</a></p>
+        <button class="contacts__btn">Написать <img src="/img/mail_icon.png" alt="mail"></button>
+      </div>
+      <div class="footer__copyright hidden-large">Авторские права 2008-2022 M-flowers.com</div>
+    </div>
+  </footer>
+
+  <script src="/script/script.js"></script>
+</body>
+
+</html>
